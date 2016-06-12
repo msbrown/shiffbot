@@ -11,7 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "request": "^2.72.0",
-    "twit": "^2.2.3",
-    "express": "4.x"
+    "twit": "^2.2.3"
   }
 }
