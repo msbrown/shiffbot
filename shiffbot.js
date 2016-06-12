@@ -67,7 +67,7 @@ function tweetEvent(tweet) {
       // Figure out what file extension it should have
       var i = type.indexOf('/');
       var ext = type.substring(i+1, type.length);
-      filename = filename + '.' + ext;
+      filename = filename + '.' + jpg; //altered
 
       // Now save it to disk with that filename
       // Put it in the Processing folder
