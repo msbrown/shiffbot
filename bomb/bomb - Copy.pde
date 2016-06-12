@@ -1,7 +1,7 @@
 void setup() {
   size(320, 240);
   
-  String filename = "media.jpg";
+  String filename = "media.jpeg";
   
   if (args !=null && args.length > 0) {
     filename = args[0];
