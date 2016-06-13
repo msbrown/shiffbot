@@ -1,13 +1,13 @@
 {
   "engines": {
-  "node": "4.4.3"
-}, //above was added per heroku inst
+  		"node": "4.4.3"
+	}, 
   "name": "Photobomb_bot",
   "version": "1.0.0",
   "description": "Twitter Replier Photobomb bot",
   "main": "shiffbot.js",
   "scripts": {
-    "start": "node bot.js",
+    "start": "node shiffbot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "MB from Shiffman",
