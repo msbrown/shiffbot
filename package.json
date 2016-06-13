@@ -1,11 +1,11 @@
 {
-  "engines": {
-  		"node": "4.4.3"
-  }, 
   "name": "Photobomb_bot",
   "version": "1.0.0",
   "description": "Twitter Replier Photobomb bot",
   "main": "shiffbot.js",
+  "engines": {
+  		"node": "4.4.3"
+  }, 
   "scripts": {
     "start": "node shiffbot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,5 @@
   "dependencies": {
     "request": "^2.72.0",
     "twit": "^2.2.3"
-  },
+  }
 }
