@@ -42,7 +42,7 @@ function tweetEvent(tweet) {
           console.log('tweetf check that user is not me');   
       // If there's no image let the tweeter know
     if (media === undefined) {
-      var reply = '@' + name + ' I need an image to photobomb!';
+      var reply = '@' + name + ' If you want Shiff to photobomb, then I need an image';
       T.post('statuses/update', { status: reply }, tweeted);
     // If there is an image, download it!
     } else if (media.length > 0) {
